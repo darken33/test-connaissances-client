@@ -1,0 +1,5 @@
+com/sqli/workshop/ddd/connaissance/client/db/ConnaissanceClientDb.class
+com/sqli/workshop/ddd/connaissance/client/db/ConnaissanceClientRepositoryImpl.class
+com/sqli/workshop/ddd/connaissance/client/db/ConnaissanceClientDbMapper.class
+com/sqli/workshop/ddd/connaissance/client/db/ConnaissanceClientDbMapperImpl.class
+com/sqli/workshop/ddd/connaissance/client/db/ConnaissanceClientDbRepository.class

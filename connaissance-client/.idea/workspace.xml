@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0c5c0c0-d635-4734-ab78-b3b0701e4e49" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/classes/com/sqli/workshop/ddd/connaissance/client/api/ConnaissanceClientDelegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/classes/com/sqli/workshop/ddd/connaissance/client/generated/api/model/AdresseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/classes/com/sqli/workshop/ddd/connaissance/client/generated/api/model/ApiErrorResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/classes/com/sqli/workshop/ddd/connaissance/client/generated/api/model/ConnaissanceClientDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/classes/com/sqli/workshop/ddd/connaissance/client/generated/api/model/ConnaissanceClientInDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/classes/com/sqli/workshop/ddd/connaissance/client/generated/api/model/SituationDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/classes/com/sqli/workshop/ddd/connaissance/client/generated/api/model/SituationFamilialleDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/classes/com/sqli/workshop/ddd/connaissance/client/generated/api/server/ApiUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/classes/com/sqli/workshop/ddd/connaissance/client/generated/api/server/ConnaissanceClientApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/classes/com/sqli/workshop/ddd/connaissance/client/generated/api/server/ConnaissanceClientApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/classes/com/sqli/workshop/ddd/connaissance/client/generated/api/server/ConnaissanceClientApiController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/classes/com/sqli/workshop/ddd/connaissance/client/generated/api/server/ConnaissanceClientApiController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/classes/com/sqli/workshop/ddd/connaissance/client/generated/api/server/ConnaissanceClientApiDelegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/classes/connaissance-client-api.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/connaissance-client-api-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/generated-sources/.openapi-generator/FILES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/generated-sources/.openapi-generator/VERSION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/generated-sources/.openapi-generator/connaissance-client-api.yaml-spring-boot-api-server.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/generated-sources/src/main/java/com/sqli/workshop/ddd/connaissance/client/generated/api/model/AdresseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/generated-sources/src/main/java/com/sqli/workshop/ddd/connaissance/client/generated/api/model/ApiErrorResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/generated-sources/src/main/java/com/sqli/workshop/ddd/connaissance/client/generated/api/model/ConnaissanceClientDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/generated-sources/src/main/java/com/sqli/workshop/ddd/connaissance/client/generated/api/model/ConnaissanceClientInDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/generated-sources/src/main/java/com/sqli/workshop/ddd/connaissance/client/generated/api/model/SituationDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/generated-sources/src/main/java/com/sqli/workshop/ddd/connaissance/client/generated/api/model/SituationFamilialleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/generated-sources/src/main/java/com/sqli/workshop/ddd/connaissance/client/generated/api/server/ApiUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/generated-sources/src/main/java/com/sqli/workshop/ddd/connaissance/client/generated/api/server/ConnaissanceClientApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/generated-sources/src/main/java/com/sqli/workshop/ddd/connaissance/client/generated/api/server/ConnaissanceClientApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/generated-sources/src/main/java/com/sqli/workshop/ddd/connaissance/client/generated/api/server/ConnaissanceClientApiDelegate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/jacoco.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/surefire-reports/TEST-com.sqli.workshop.ddd.connaissance.client.api.ConnaissanceClientDelegateTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/surefire-reports/com.sqli.workshop.ddd.connaissance.client.api.ConnaissanceClientDelegateTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/test-classes/com/sqli/workshop/ddd/connaissance/client/api/ConnaissanceClientDelegateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/test-classes/com/sqli/workshop/ddd/connaissance/client/generated/api/server/ConnaissanceClientApiIT$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-api/target/test-classes/com/sqli/workshop/ddd/connaissance/client/generated/api/server/ConnaissanceClientApiIT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-app/src/main/java/com/sqli/workshop/ddd/connaissance/client/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-app/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-app/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-app/target/classes/com/sqli/workshop/ddd/connaissance/client/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-db-port/target/connaissance-client-db-port-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-db-port/target/connaissance-client-db-port-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-db-port/target/generated-sources/annotations/com/sqli/workshop/ddd/connaissance/client/db/ConnaissanceClientDbMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-db-port/target/generated-sources/annotations/com/sqli/workshop/ddd/connaissance/client/db/ConnaissanceClientDbMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-db-port/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-db-port/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-db-port/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-db-port/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-db-port/target/surefire-reports/TEST-com.sqli.workshop.ddd.connaissance.client.db.ConnaissanceClientDbMapperTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-db-port/target/surefire-reports/TEST-com.sqli.workshop.ddd.connaissance.client.db.ConnaissanceClientDbMapperTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-db-port/target/surefire-reports/TEST-com.sqli.workshop.ddd.connaissance.client.db.ConnaissanceClientRepositoryImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-db-port/target/surefire-reports/TEST-com.sqli.workshop.ddd.connaissance.client.db.ConnaissanceClientRepositoryImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-db-port/target/surefire-reports/com.sqli.workshop.ddd.connaissance.client.db.ConnaissanceClientRepositoryImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-db-port/target/surefire-reports/com.sqli.workshop.ddd.connaissance.client.db.ConnaissanceClientRepositoryImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-domain/target/connaissance-client-domain-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-domain/target/connaissance-client-domain-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-domain/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-domain/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-domain/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-domain/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-domain/target/surefire-reports/TEST-com.sqli.workshop.ddd.connaissance.client.domain.ConnaissanceClientServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-domain/target/surefire-reports/TEST-com.sqli.workshop.ddd.connaissance.client.domain.ConnaissanceClientServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-domain/target/surefire-reports/TEST-com.sqli.workshop.ddd.connaissance.client.domain.models.AdresseTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-domain/target/surefire-reports/TEST-com.sqli.workshop.ddd.connaissance.client.domain.models.AdresseTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-domain/target/surefire-reports/TEST-com.sqli.workshop.ddd.connaissance.client.domain.models.ConnaissanceClientTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-domain/target/surefire-reports/TEST-com.sqli.workshop.ddd.connaissance.client.domain.models.ConnaissanceClientTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-domain/target/surefire-reports/com.sqli.workshop.ddd.connaissance.client.domain.ConnaissanceClientServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-domain/target/surefire-reports/com.sqli.workshop.ddd.connaissance.client.domain.ConnaissanceClientServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-domain/target/surefire-reports/com.sqli.workshop.ddd.connaissance.client.domain.models.AdresseTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-domain/target/surefire-reports/com.sqli.workshop.ddd.connaissance.client.domain.models.AdresseTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connaissance-client-domain/target/surefire-reports/com.sqli.workshop.ddd.connaissance.client.domain.models.ConnaissanceClientTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/connaissance-client-domain/target/surefire-reports/com.sqli.workshop.ddd.connaissance.client.domain.models.ConnaissanceClientTest.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="aks-caas-shared-we1-prd" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="ProjectId" id="2F9ust2ZQpm2Q2mrYFc7taqV90p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/connaissance-client-karate/src/test/java/karate/connaissance-client" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.3359375" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/connaissance-client-karate/src/test/java/karate/connaissance-client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.connaissance-client[package]">
+    <configuration name="All Features in: java" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/tests/connaissance-client-karate/src/test/java" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="connaissance-client-karate" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="All Features in: java" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: ITCC-000-AUTHENT" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/tests/connaissance-client-karate/src/test/java/karate/connaissance-client/ITCC-000-AUTHENT.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="connaissance-client-karate" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: ITCC-000-AUTHENT" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: ITCC-GET-UC01 - Get /v1/connaissance-clients/{id} - ok" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/tests/connaissance-client-karate/src/test/java/karate/connaissance-client/ITCC-GETCLIENT-API.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="connaissance-client-karate" />
+      <option name="NAME_FILTER" value="^ITCC\-GET\-UC01 \- Get \/v1\/connaissance\-clients\/\{id\} \- ok$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^ITCC\-GET\-UC01 \- Get \/v1\/connaissance\-clients\/\{id\} \- ok$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: ITCC-GET-UC01 - Get /v1/connaissance-clients/{id} - ok" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnaissanceClientDelegateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="connaissance-client-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sqli.workshop.ddd.connaissance.client.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sqli.workshop.ddd.connaissance.client.api" />
+      <option name="MAIN_CLASS_NAME" value="com.sqli.workshop.ddd.connaissance.client.api.ConnaissanceClientDelegateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KarateRunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="connaissance-client-karate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="karate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="karate" />
+      <option name="MAIN_CLASS_NAME" value="karate.KarateRunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="connaissance-client[install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="connaissance-client[package]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="ConnaissanceClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="connaissance-client-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sqli.workshop.ddd.connaissance.client.ConnaissanceClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.All Features in: java" />
+      <item itemvalue="Cucumber Java.Feature: ITCC-000-AUTHENT" />
+      <item itemvalue="Cucumber Java.Scenario: ITCC-GET-UC01 - Get /v1/connaissance-clients/{id} - ok" />
+      <item itemvalue="JUnit.KarateRunnerTest" />
+      <item itemvalue="JUnit.ConnaissanceClientDelegateTest" />
+      <item itemvalue="Maven.connaissance-client[package]" />
+      <item itemvalue="Maven.connaissance-client[install]" />
+      <item itemvalue="Spring Boot.ConnaissanceClientApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.All Features in: java" />
+        <item itemvalue="JUnit.ConnaissanceClientDelegateTest" />
+        <item itemvalue="JUnit.KarateRunnerTest" />
+        <item itemvalue="Cucumber Java.Scenario: ITCC-GET-UC01 - Get /v1/connaissance-clients/{id} - ok" />
+        <item itemvalue="Cucumber Java.Feature: ITCC-000-AUTHENT" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0c5c0c0-d635-4734-ab78-b3b0701e4e49" name="Default Changelist" comment="" />
+      <created>1663916831140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663916831140</updated>
+      <workItem from="1663916833833" duration="18727000" />
+      <workItem from="1665465552039" duration="6235000" />
+      <workItem from="1665593151689" duration="183000" />
+      <workItem from="1666019437803" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/connaissance_client$All_in_connaissance_client_db_port.ic" NAME="All in connaissance-client-db-port Coverage Results" MODIFIED="1662357411552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/connaissance_client$All_in_connaissance_client_domain.ic" NAME="All in connaissance-client-domain Coverage Results" MODIFIED="1662357322988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/connaissance_client_karate$All_in_connaissance_client_domain.ic" NAME="All in connaissance-client-domain Coverage Results" MODIFIED="1663859808150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

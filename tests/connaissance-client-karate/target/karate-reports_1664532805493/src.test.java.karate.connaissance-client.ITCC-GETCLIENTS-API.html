@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.karate.connaissance-client.ITCC-GETCLIENTS-API</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-09-30 12:12:36 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:9]"><span>[1:9]</span> <span>ITCC-GET-UC01 - Get /v1/connaissance-clients/ - ok</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/karate/connaissance-client/ITCC-GETCLIENTS-API.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Connaissnce Client Get</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:9]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">ITCC-GET-UC01</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:9]</span>
+                <span class="scenario-name">ITCC-GET-UC01 - Get /v1/connaissance-clients/ - ok</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1269</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:9]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def signInKeycloak = callonce read(&#39;ITCC-000-AUTHENT.feature@use_user_1&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">496</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">12:12:35.862 &lt;&lt; lock released, cached callonce: read(&#39;ITCC-000-AUTHENT.feature@use_user_1&#39;)
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.5.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">src.test.java.karate.connaissance-client.ITCC-000-AUTHENT</div>
+      </div>
+      <div class="time-cell passed">451</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url authUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.6">12:12:35.400 &gt;&gt; lock acquired, begin callonce: read(&#39;ITCC-000-AUTHENT.feature@use_user_1&#39;)
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>form field client_id = clientId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">92</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>form field client_secret = clientSecret</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>form field grant_type = &#39;password&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>form field username = userName</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>form field password = password</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.12">
+      <div class="step-ref bg-step">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>form field scope = &#39;openid&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.13">
+      <div class="step-ref bg-step">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/x-www-form-urlencoded&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.14">
+      <div class="step-ref bg-step">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">357</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.14">12:12:35.717 request:
+1 &gt; POST http://0.0.0.0:8090/realms/master/protocol/openid-connect/token
+1 &gt; Content-Type: application/x-www-form-urlencoded
+1 &gt; Content-Length: 146
+1 &gt; Host: 0.0.0.0:8090
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+client_id=connaissance-client&amp;client_secret=knJixridM736CFuQmUl4Prnecn2nmMmM&amp;grant_type=password&amp;username=fifi&amp;password=Qs753951Ml%24&amp;scope=openid
+
+12:12:35.854 response time in milliseconds: 115
+1 &lt; 200
+1 &lt; Referrer-Policy: no-referrer
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 &lt; Cache-Control: no-store
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; Set-Cookie: KEYCLOAK_LOCALE=; Version=1; Comment=Expiring cookie; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/realms/master/; HttpOnly
+1 &lt; Set-Cookie: KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/realms/master/; HttpOnly
+1 &lt; Pragma: no-cache
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; Content-Type: application/json
+1 &lt; content-length: 3325
+{&quot;access_token&quot;:&quot;eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJFUnQydDliTVZBa2dFeXJOVTloVFY2blk2QkRsWS03N2dZNDFDdXBkcU1JIn0.eyJleHAiOjE2NjQ1MzMzNTUsImlhdCI6MTY2NDUzMjc1NSwianRpIjoiMzljMDkxYjYtZDY2Ni00MGQwLTk1MDUtOWEzMGJlYTc4ODRhIiwiaXNzIjoiaHR0cDovLzAuMC4wLjA6ODA5MC9yZWFsbXMvbWFzdGVyIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImI5ZjNlZDg5LTkzODgtNDk3My04M2E5LWUyMWFjMzdlNzExNiIsInR5cCI6IkJlYXJlciIsImF6cCI6ImNvbm5haXNzYW5jZS1jbGllbnQiLCJzZXNzaW9uX3N0YXRlIjoiOGMzMWUwYWEtMThhMy00YWU1LTlmNWMtMDI0YmQ4NzgyMGM3IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vbG9jYWxob3N0OjgwODAiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtbWFzdGVyIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI4YzMxZTBhYS0xOGEzLTRhZTUtOWY1Yy0wMjRiZDg3ODIwYzciLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImZpZmkiLCJlbWFpbCI6InBib3VzcXVldEBzcWxpLmNvbSJ9.aHxmTlBaVxT_U3mnnVdCC1lIt42KvgMVDLzuVOil0HKtSghn3LNPpEMD7n6Lyw5EBozWavi9k6QT5FT4ZjAGmfzuNtynnklxC89Tx2FAwJ80JY0ztjNcQtHjNLMd9lk2ZGa7h4PhBoYKTcn38BdNfaxNxje-k8U-OacTjWNj96ETUs_nRq1M-nE8LHuXnCMcLG-qgsqFsjY7JBp1SM9b6HXEj4MilD8Ef7wZyWqmbGWW9oE3OwgWC0MgYBz34hwccYogJ5riKK8IRn_7YOeVhCioy6SEahkmuWyI3OFFXfll3exCPSHQP3SmT2KHqKBDmFBV_3ZD3TlTNyfhsjWDWg&quot;,&quot;refresh_token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjNDBlOGQwZC1mMTY3LTRiZjctODY2Mi1kYWM3N2U4YzNkNTUifQ.eyJleHAiOjE2NjQ1MzQ1NTUsImlhdCI6MTY2NDUzMjc1NSwianRpIjoiMGEyNmE5Y2QtMTM2Yi00NmQ1LWIyNGMtYmQwMzFiNWQ3YTQ3IiwiaXNzIjoiaHR0cDovLzAuMC4wLjA6ODA5MC9yZWFsbXMvbWFzdGVyIiwiYXVkIjoiaHR0cDovLzAuMC4wLjA6ODA5MC9yZWFsbXMvbWFzdGVyIiwic3ViIjoiYjlmM2VkODktOTM4OC00OTczLTgzYTktZTIxYWMzN2U3MTE2IiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImNvbm5haXNzYW5jZS1jbGllbnQiLCJzZXNzaW9uX3N0YXRlIjoiOGMzMWUwYWEtMThhMy00YWU1LTlmNWMtMDI0YmQ4NzgyMGM3Iiwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsInNpZCI6IjhjMzFlMGFhLTE4YTMtNGFlNS05ZjVjLTAyNGJkODc4MjBjNyJ9.dATDA-nz9duKw9Ml5-XkLImf7b1e3gs34t4EBIdAVQE&quot;,&quot;refresh_expires_in&quot;:1800,&quot;not-before-policy&quot;:0,&quot;scope&quot;:&quot;openid email profile&quot;,&quot;id_token&quot;:&quot;eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJFUnQydDliTVZBa2dFeXJOVTloVFY2blk2QkRsWS03N2dZNDFDdXBkcU1JIn0.eyJleHAiOjE2NjQ1MzMzNTUsImlhdCI6MTY2NDUzMjc1NSwiYXV0aF90aW1lIjowLCJqdGkiOiJhOWE3MThiNi05NDA4LTRmOTMtYjczMS0wNTBlMWNjNWYyNzgiLCJpc3MiOiJodHRwOi8vMC4wLjAuMDo4MDkwL3JlYWxtcy9tYXN0ZXIiLCJhdWQiOiJjb25uYWlzc2FuY2UtY2xpZW50Iiwic3ViIjoiYjlmM2VkODktOTM4OC00OTczLTgzYTktZTIxYWMzN2U3MTE2IiwidHlwIjoiSUQiLCJhenAiOiJjb25uYWlzc2FuY2UtY2xpZW50Iiwic2Vzc2lvbl9zdGF0ZSI6IjhjMzFlMGFhLTE4YTMtNGFlNS05ZjVjLTAyNGJkODc4MjBjNyIsImF0X2hhc2giOiI5YUtXT3VsaTcyakpGNVVyQW1DMDNRIiwiYWNyIjoiMSIsInNpZCI6IjhjMzFlMGFhLTE4YTMtNGFlNS05ZjVjLTAyNGJkODc4MjBjNyIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoiZmlmaSIsImVtYWlsIjoicGJvdXNxdWV0QHNxbGkuY29tIn0.HJvVy6_wegx2comZt7S-n6o-9m8n_JPjHMRaMLgkT_rdy8c8jqxSJbCa55hY-xJTTve3tKjmql0l4bpY7-T_Y2cw-HtxMRauvH0nMHthla-mdX6zFw_T3TbiFClqLBQx-aLbavbaiQFmi9kIZc_WscR_xHuJfjykve0RPpPZwuUVUX_OXG-DcuopQY-sK5BwPQITdwmpwKhxnePv-EmAU2IHD5Fuw9idcSytYGnAyDhnuCkTNmvnfRWIN8gu8Vy4vYX-i3lemA9Yvsdmq1ITJdX4whRWmrPDT3v6LVDCfMysssDrUG-7oVIujyf4tnYYmt-bXDdHY3t6hRHSfHv_JA&quot;,&quot;token_type&quot;:&quot;Bearer&quot;,&quot;session_state&quot;:&quot;8c31e0aa-18a3-4ae5-9f5c-024bd87820c7&quot;,&quot;expires_in&quot;:600}
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.15">
+      <div class="step-ref bg-step">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def jwtToken = signInKeycloak.response.access_token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;ITCC-GET-UC01 - Get /v1/connaissance-clients/ - ok&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">12:12:35.875 [print] ITCC-GET-UC01 - Get /v1/connaissance-clients/ - ok 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/v1/connaissance-clients/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer &#39; + jwtToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">747</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">12:12:35.888 request:
+1 &gt; GET http://localhost:8080/v1/connaissance-clients/
+1 &gt; Accept: application/json
+1 &gt; Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJFUnQydDliTVZBa2dFeXJOVTloVFY2blk2QkRsWS03N2dZNDFDdXBkcU1JIn0.eyJleHAiOjE2NjQ1MzMzNTUsImlhdCI6MTY2NDUzMjc1NSwianRpIjoiMzljMDkxYjYtZDY2Ni00MGQwLTk1MDUtOWEzMGJlYTc4ODRhIiwiaXNzIjoiaHR0cDovLzAuMC4wLjA6ODA5MC9yZWFsbXMvbWFzdGVyIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImI5ZjNlZDg5LTkzODgtNDk3My04M2E5LWUyMWFjMzdlNzExNiIsInR5cCI6IkJlYXJlciIsImF6cCI6ImNvbm5haXNzYW5jZS1jbGllbnQiLCJzZXNzaW9uX3N0YXRlIjoiOGMzMWUwYWEtMThhMy00YWU1LTlmNWMtMDI0YmQ4NzgyMGM3IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vbG9jYWxob3N0OjgwODAiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtbWFzdGVyIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI4YzMxZTBhYS0xOGEzLTRhZTUtOWY1Yy0wMjRiZDg3ODIwYzciLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImZpZmkiLCJlbWFpbCI6InBib3VzcXVldEBzcWxpLmNvbSJ9.aHxmTlBaVxT_U3mnnVdCC1lIt42KvgMVDLzuVOil0HKtSghn3LNPpEMD7n6Lyw5EBozWavi9k6QT5FT4ZjAGmfzuNtynnklxC89Tx2FAwJ80JY0ztjNcQtHjNLMd9lk2ZGa7h4PhBoYKTcn38BdNfaxNxje-k8U-OacTjWNj96ETUs_nRq1M-nE8LHuXnCMcLG-qgsqFsjY7JBp1SM9b6HXEj4MilD8Ef7wZyWqmbGWW9oE3OwgWC0MgYBz34hwccYogJ5riKK8IRn_7YOeVhCioy6SEahkmuWyI3OFFXfll3exCPSHQP3SmT2KHqKBDmFBV_3ZD3TlTNyfhsjWDWg
+1 &gt; Host: localhost:8080
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+12:12:36.632 response time in milliseconds: 741
+1 &lt; 200
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 &lt; Pragma: no-cache
+1 &lt; Expires: 0
+1 &lt; X-Frame-Options: DENY
+1 &lt; Content-Security-Policy: default-src &#39;self&#39;; style-src &#39;self&#39; &#39;unsafe-inline&#39;; img-src &#39;self&#39; data:;
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Date: Fri, 30 Sep 2022 10:12:36 GMT
+1 &lt; Keep-Alive: timeout=60
+1 &lt; Connection: keep-alive
+[{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;MARIE&quot;,&quot;id&quot;:&quot;1cd90e2c-d90f-4ce2-a2b2-ee1e6d2eb309&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:1},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;aeac579a-d30f-48aa-a27b-bc3d3f0ab985&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;f7f6aceb-e4a7-42bc-b38f-a392e2afbd54&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;e542d768-5d1d-43a3-920f-fc41572c384e&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;cd7ff8ef-9d8b-45b5-985c-f05b66f43364&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Test Abc&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;c0371a35-5050-41c3-9d05-fc27c7c584fe&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Test Abc&quot;,&quot;prenom&quot;:&quot;Test Abc&quot;,&quot;nombreEnfants&quot;:1},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;eff180e6-281d-4069-89b9-0675db059a4e&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;602ecde5-f0a0-4c1e-945d-cfe64173963b&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;00b88b60-a1ab-4eff-b26c-d0d940693852&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;bd6b5339-e0e8-4635-938c-c2c3ee194a42&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;da898c8b-e030-4f24-a404-30427c09360e&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;0ebcd712-1344-4167-bec1-682dfda7afb6&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;354fb818-7654-4527-a618-be4e816ace5b&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;8ff707ea-57b0-4d96-9e11-f2204e41bfdb&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;d73f4625-0b85-41fb-9506-63c400f83684&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;0839a593-a9f8-499e-b811-7020aec68a1b&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;2dd1b5cd-ec08-45bc-9752-ab13f983f07d&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;76c106fc-13a3-4799-bd3a-bcdde693bb77&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;602937b6-a2ad-4d8c-9a7d-342ce5b8d0e9&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;c96409ca-6ddc-435f-a597-5c1eca7744f0&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;14db79d7-cd7e-426b-b83f-180d5fb280ea&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;b762e5d4-99da-485f-84ad-1fd28264b7c9&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;62b80b15-c1bb-4bf3-9eb9-d3815b6439a0&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;991a3e27-61a7-4442-86d3-d6369a7556b8&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;e9b6ad9f-7abe-4941-aa12-80970ad5a236&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;ce069df5-7114-4036-a43c-81ce3a33d85a&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;acb57fc9-782f-4680-a079-476fe2b7dfed&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;ac36abb0-4c83-46e8-b3f6-d2ed9f347e9e&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;852640b1-e8a5-4097-a84b-a7844f610ce3&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;f107cbc4-2e6a-4a35-ac74-752b51ff6b03&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;c6a53907-7355-4506-8395-5fb81b1a72e1&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;347414cb-e051-433f-909e-bf56035b9380&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;6aff5a86-41ee-422f-a064-8ef0e17f0ee0&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;2241dde9-bc5e-482c-a222-1693c04ebc63&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;d005fc64-c4e6-47c1-9017-0b4c703033a4&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;71e97ddd-ebff-45bc-a832-09ab1932bd44&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;04c9b301-4af7-45c1-b108-e7912ef7823b&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;c280e5d2-fb7e-4f6b-8447-6fd1e3cb67a8&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;f5398bfc-1f66-413d-bd10-d6caea0169b8&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;276ef256-b378-4cec-adb2-70eda452c759&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0},{&quot;ligne2&quot;:null,&quot;ville&quot;:&quot;Bordeaux&quot;,&quot;ligne1&quot;:&quot;48 rue bauducheu&quot;,&quot;situationFamilialle&quot;:&quot;CELIBATAIRE&quot;,&quot;id&quot;:&quot;80d87469-f0d4-497c-9596-f43c207880b1&quot;,&quot;codePostal&quot;:&quot;33800&quot;,&quot;nom&quot;:&quot;Bousquet&quot;,&quot;prenom&quot;:&quot;Philippe&quot;,&quot;nombreEnfants&quot;:0}]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;END ITCC-GET-UC01 - Get /v1/connaissance-clients - ok&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.16">12:12:36.635 [print] END ITCC-GET-UC01 - Get /v1/connaissance-clients - ok 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

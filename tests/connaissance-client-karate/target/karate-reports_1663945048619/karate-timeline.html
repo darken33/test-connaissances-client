@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/karate\/connaissance-client\/ITCC-000-AUTHENT[1:5]","start":1663945044891,"end":1663945045018,"title":"src\/test\/java\/karate\/connaissance-client\/ITCC-000-AUTHENT[1:5] 16:57:24.891-16:57:25.018"},{"id":2,"group":1,"content":"src\/test\/java\/karate\/connaissance-client\/ITCC-CREATE-API[1:9]","start":1663945044543,"end":1663945044680,"title":"src\/test\/java\/karate\/connaissance-client\/ITCC-CREATE-API[1:9] 16:57:24.543-16:57:24.680 ITCC-CREATE-UC01 - Post \/v1\/connaissance-clients - ok"},{"id":3,"group":1,"content":"src\/test\/java\/karate\/connaissance-client\/ITCC-CREATE-API[2:21]","start":1663945044686,"end":1663945044729,"title":"src\/test\/java\/karate\/connaissance-client\/ITCC-CREATE-API[2:21] 16:57:24.686-16:57:24.729 ITCC-CREATE-UC02 - Post \/v1\/connaissance-clients - nom invalide"},{"id":4,"group":1,"content":"src\/test\/java\/karate\/connaissance-client\/ITCC-GETCLIENT-API[1:11]","start":1663945042822,"end":1663945043749,"title":"src\/test\/java\/karate\/connaissance-client\/ITCC-GETCLIENT-API[1:11] 16:57:22.822-16:57:23.749 ITCC-GET-UC01 - Get \/v1\/connaissance-clients\/{id} - ok"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

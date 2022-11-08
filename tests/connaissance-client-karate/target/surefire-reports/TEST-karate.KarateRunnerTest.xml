@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="karate.KarateRunnerTest" time="34.977" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/tests/connaissance-client-karate/target/test-classes:/home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/tests/connaissance-client-karate/target/classes:/home/pbousquet/.m2/repository/com/intuit/karate/karate-junit5/1.0.1/karate-junit5-1.0.1.jar:/home/pbousquet/.m2/repository/com/intuit/karate/karate-core/1.0.1/karate-core-1.0.1.jar:/home/pbousquet/.m2/repository/org/graalvm/js/js-scriptengine/21.0.0/js-scriptengine-21.0.0.jar:/home/pbousquet/.m2/repository/org/graalvm/sdk/graal-sdk/21.0.0/graal-sdk-21.0.0.jar:/home/pbousquet/.m2/repository/org/graalvm/js/js/21.0.0/js-21.0.0.jar:/home/pbousquet/.m2/repository/org/graalvm/regex/regex/21.0.0/regex-21.0.0.jar:/home/pbousquet/.m2/repository/org/graalvm/truffle/truffle-api/21.0.0/truffle-api-21.0.0.jar:/home/pbousquet/.m2/repository/com/ibm/icu/icu4j/67.1/icu4j-67.1.jar:/home/pbousquet/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/pbousquet/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/pbousquet/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/pbousquet/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/home/pbousquet/.m2/repository/com/jayway/jsonpath/json-path/2.5.0/json-path-2.5.0.jar:/home/pbousquet/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/home/pbousquet/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/home/pbousquet/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/home/pbousquet/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/pbousquet/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/pbousquet/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar:/home/pbousquet/.m2/repository/de/siegmar/fastcsv/1.0.4/fastcsv-1.0.4.jar:/home/pbousquet/.m2/repository/info/picocli/picocli/4.5.2/picocli-4.5.2.jar:/home/pbousquet/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/pbousquet/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/pbousquet/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/pbousquet/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/pbousquet/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/pbousquet/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/home/pbousquet/.jdks/corretto-11.0.12/lib"/>
+    <property name="sun.java.command" value="/home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/tests/connaissance-client-karate/target/surefire/surefirebooter13329355765335968860.jar /home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/tests/connaissance-client-karate/target/surefire 2022-09-23T15-41-41_536-jvmRun1 surefire1152224254103856552tmp surefire_01177869327669347285tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/tests/connaissance-client-karate/target/test-classes:/home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/tests/connaissance-client-karate/target/classes:/home/pbousquet/.m2/repository/com/intuit/karate/karate-junit5/1.0.1/karate-junit5-1.0.1.jar:/home/pbousquet/.m2/repository/com/intuit/karate/karate-core/1.0.1/karate-core-1.0.1.jar:/home/pbousquet/.m2/repository/org/graalvm/js/js-scriptengine/21.0.0/js-scriptengine-21.0.0.jar:/home/pbousquet/.m2/repository/org/graalvm/sdk/graal-sdk/21.0.0/graal-sdk-21.0.0.jar:/home/pbousquet/.m2/repository/org/graalvm/js/js/21.0.0/js-21.0.0.jar:/home/pbousquet/.m2/repository/org/graalvm/regex/regex/21.0.0/regex-21.0.0.jar:/home/pbousquet/.m2/repository/org/graalvm/truffle/truffle-api/21.0.0/truffle-api-21.0.0.jar:/home/pbousquet/.m2/repository/com/ibm/icu/icu4j/67.1/icu4j-67.1.jar:/home/pbousquet/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/pbousquet/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/pbousquet/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/pbousquet/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/home/pbousquet/.m2/repository/com/jayway/jsonpath/json-path/2.5.0/json-path-2.5.0.jar:/home/pbousquet/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/home/pbousquet/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/home/pbousquet/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/home/pbousquet/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/pbousquet/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/pbousquet/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar:/home/pbousquet/.m2/repository/de/siegmar/fastcsv/1.0.4/fastcsv-1.0.4.jar:/home/pbousquet/.m2/repository/info/picocli/picocli/4.5.2/picocli-4.5.2.jar:/home/pbousquet/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/pbousquet/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/pbousquet/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/pbousquet/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/pbousquet/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/pbousquet/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/pbousquet"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="/home/pbousquet/.jdks/corretto-11.0.12"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/tests/connaissance-client-karate"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/tests/connaissance-client-karate/target/surefire/surefirebooter13329355765335968860.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+7-LTS"/>
+    <property name="user.name" value="pbousquet"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-125-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.12.7.1"/>
+    <property name="localRepository" value="/home/pbousquet/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2020.3.4"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="/home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/tests/connaissance-client-karate"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.12+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="connaissanceClient[1][1]" classname="karate.KarateRunnerTest" time="20.55"/>
+  <testcase name="connaissanceClient[2][1]" classname="karate.KarateRunnerTest" time="0.607"/>
+  <testcase name="connaissanceClient[2][2]" classname="karate.KarateRunnerTest" time="0.343"/>
+  <testcase name="connaissanceClient[3][1]" classname="karate.KarateRunnerTest" time="0.586"/>
+</testsuite>

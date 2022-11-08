@@ -1,0 +1,6 @@
+/home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/connaissance-client-domain/src/main/java/com/sqli/workshop/ddd/connaissance/client/domain/ConnaissanceClientServiceImpl.java
+/home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/connaissance-client-domain/src/main/java/com/sqli/workshop/ddd/connaissance/client/domain/ConnaissanceClientService.java
+/home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/connaissance-client-domain/src/main/java/com/sqli/workshop/ddd/connaissance/client/domain/models/ConnaissanceClient.java
+/home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/connaissance-client-domain/src/main/java/com/sqli/workshop/ddd/connaissance/client/domain/ports/ConnaissanceClientRepository.java
+/home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/connaissance-client-domain/src/main/java/com/sqli/workshop/ddd/connaissance/client/domain/enums/SituationFamiliale.java
+/home/pbousquet/Workspace/SQLI/Repositories/formation_java_avance/projet/connaissance-client/connaissance-client-domain/src/main/java/com/sqli/workshop/ddd/connaissance/client/domain/models/Adresse.java

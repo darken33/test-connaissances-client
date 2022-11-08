@@ -1,0 +1,21 @@
+version: 1.0.0
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongoadmin:secret@0.0.0.0:27017
+      database: admin
+      repositories:
+        type: none
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+    include-stacktrace: never
+    include-exception: false
+springdoc:
+  show-actuator: false
+  api-docs:
+    version: openapi_3_0
+    enabled: true
+  swagger-ui:
+    enabled: true
